@@ -1,12 +1,15 @@
-# Tags: latest, 2.36.0-debian-10-r6, 2.36.0, 2-debian-10, 2
+# Tags: latest, 2.36.0-debian-10-r7, 2.36.0, 2-debian-10, 2
 FROM bitnami/azure-cli:latest
-FROM bitnami/azure-cli:2.36.0-debian-10-r6
+FROM bitnami/azure-cli:2.36.0-debian-10-r7
 FROM bitnami/azure-cli:2.36.0
 FROM bitnami/azure-cli:2-debian-10
 FROM bitnami/azure-cli:2
 
 # Tags: _
 FROM bitnami/azure-cli:_
+
+# Tags: 2.36.0-debian-10-r6
+FROM bitnami/azure-cli:2.36.0-debian-10-r6
 
 # Tags: 2.36.0-debian-10-r5
 FROM bitnami/azure-cli:2.36.0-debian-10-r5
@@ -93,6 +96,3 @@ FROM bitnami/azure-cli:2.34.1
 
 # Tags: 2.34.1-debian-10-r31
 FROM bitnami/azure-cli:2.34.1-debian-10-r31
-
-# Tags: 2.34.1-debian-10-r30
-FROM bitnami/azure-cli:2.34.1-debian-10-r30
